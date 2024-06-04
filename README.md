@@ -1,5 +1,3 @@
-![Logo](c:/workspace/wassup3/minorart.png)    
-
 > # Wassup AI 서비스 3기 김현태 Git Hub    
 
   > ## 앞으로 AI 서비스 기획자가 되기 위해 열심히 공부하겠습니다.   
