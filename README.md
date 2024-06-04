@@ -1,4 +1,4 @@
-![img](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fe8f11927-b70c-4524-9227-a3efac08e7aa%2Fdc05922f-9c1c-48c8-8603-e88ca35631bb%2F%25EC%2598%25A4%25EB%25A5%25B4%25EB%25AF%25B8_1_1.jpg?table=block&id=e40f85fa-03cc-49c5-9e29-a367f5d191d1&spaceId=e8f11927-b70c-4524-9227-a3efac08e7aa&width=250&userId=b83160b7-b49b-470d-aff2-2ef908487da3&cache=v2)
+![로고](C:\workspace\wassup3\minorart.png)   
 
 #Wassup AI 서비스 3기 김현태 Git Hub
 
