@@ -1,4 +1,4 @@
-![Logo](/wassup3/minorart.png)    
+![Logo](c:/workspace/wassup3/minorart.png)    
 
 > # Wassup AI 서비스 3기 김현태 Git Hub    
 
