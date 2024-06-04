@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-![로고](C:\workspace\wassup3\minorart.png)   
-=======
-![logo](C:\workspace\wassup3\minorart.png)   
-![logo](/minorart.png)
->>>>>>> 77c6cd71d35ded91c1aaa4e03e491ce79699be99
 
+!(C:\workspace\wassup3\minorart.png)      
 Wassup AI 서비스 3기 김현태 Git Hub
 ==================================
 > ## 앞으로 AI 서비스 기획자가 되기 위해 열심히 공부하겠습니다.
