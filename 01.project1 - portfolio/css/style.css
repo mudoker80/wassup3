@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'lato', sans-serif;
+}
+
+.blue-bg {
+    background-color: #28293E;
+    color: white;
+}
+
+.button {
+    background-color: #4980ff;
+    padding: 12px 4px;
+    border-radius: 6px;
+}
+
+
+
+.blue-bg {
+    background-color: rgb(39, 39, 49);
+    color: white;
+}
+
+header {
+    background-color: #28293E;
+    text-align: center;
+    padding : 20px 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header li {
+    display: inline;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 22px;    
+}
+
+section img#profile {
+    border-radius: 300px;
+    width: 263px;
+   
+}
+
+section#hero {
+    padding-top: 68px;
+    padding-bottom: 58px; 
+}
+
+section#hero h1 {
+    font-size: 72px;
+    font-weight: normal;
+    color: white;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    letter-spacing: -2px;
+}
+
+section#hero h2 {
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    letter-spacing: 3px;
+}
+
+section#hero p {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    max-width: 465px;
+    margin: auto;
+    line-height: 32px;
+    }
+
+section#hero ul {
+    padding: 0px
+}
+
+
+section#hero li {
+    display: inline; 
+    margin: 0 6px;
+}
+
+section#hero li img {
+    width: 37px;
+}
