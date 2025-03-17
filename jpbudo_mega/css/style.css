@@ -1,0 +1,187 @@
+/* ===== 공통 스타일 ===== */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* ===== 헤더 스타일 ===== */
+#header {
+    background-color: #222;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 10px 10px;
+}
+
+/* 로고 스타일 */
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+
+/* /* .logo img {
+   padding: 0;
+    height: 50px;
+    width: auto;
+    display: inline;
+} */
+
+/* .logo {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline;        
+} */
+
+/* .title {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline;
+} */
+
+/* 네비게이션 스타일 */
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 20px;
+    transform: tranlate(-50%, -50%);
+    
+   
+}
+
+.nav-menu ul li {
+    display: inline;
+    left: 50px;
+    top: 50%;
+
+    padding: 0px 40px 30px 90px;
+    position: relative;
+    left: 50px;
+    top: 50%;
+    transform: tranlate(-50%, -50%);
+}
+
+.nav-menu ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 30px;
+    transition: 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+.nav-menu ul li a:hover {
+    background-color: #d2be8a;
+}
+
+/* ===== 반응형 네비게이션 메뉴 ===== */
+@media screen and (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-menu ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-menu ul li {
+        margin: 5px 0;
+    }
+}
+
+/* ===== 메인 콘텐츠 스타일 ===== */
+#main {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#main img {
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* .background {
+    background-color: #ffcc00;
+    background-image: url('./img/dragon_background.webp');
+    position: relative;
+    width: 100%;
+    height: auto;
+} */
+
+
+
+/* .background {
+    background-image: url('./img/dragon_background.png');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    
+} */
+
+/* ===== 푸터 스타일 ===== */
+#footer {
+    background-color: #222;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-info {
+    margin-bottom: 15px;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+.footer-info i {
+    margin-right: 8px;
+    color: #ffcc00;
+}
+
+/* 소셜 미디어 아이콘 스타일 */
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ffcc00;
+}
+
+/* 저작권 스타일 */
+.copyright {
+    font-size: 12px;
+    margin-top: 10px;
+    opacity: 0.8;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/write.js"></script>
+    <script>
+    class Baord {
+        constructor(indexNum,subjectStr,writerStr,contentStr){
+            this.indexNum = indexNum;
+            this.subjectStr = subjectStr;
+            this.writerStr = writerStr;
+            this.contentStr = contentStr;
+            this.date = recordDate();
+            this.view = 0;
+        }
+
+        set title(value) {
+            if(value.length < 2){
+                alert("제목은 2글자 이상이어야 합니다.");
+                return;
+            }
+        }
+        set Writer(value) {
+            if(value.length < 2){
+                alert("작성자는 2글자 이상이어야 합니다.");
+                return;
+            }
+        }
+        set Content(value) {
+            if(value.length < 2){
+                alert("내용은 2글자 이상이어야 합니다.");
+                return;
+            }
+        }
+        recordDate(){
+            let today = new Date();
+            let year = today.getFullYear();
+            let month = today.getMonth()+1;
+            let date = today.getDate();
+            let hour = today.getHours();
+            let minute = today.getMinutes();
+            let second = today.getSeconds();
+            return year+"-"+month+"-"+date+" "+hour+":"+minute+":"+second;
+        }
+}
+    </script>
+    <script>
+        let boardStr = localStorage.getItem("write");
+
+        if(boardStr == null){
+            const listStr = JSON.stringify([]);
+            window.localStorage.setItem("write",listStr);
+            localStr = listStr;
+        }
+        let board = JSON.parse(localStorage.getItem("write"));
+        
+
+    </script>
+</head>
+<body>
+    <h1>
+        <a href="../index.html">홈으로</a>
+    </h1>
+    <h2>게시글 작성</h2>
+    <form id = "writeFrm">
+        <div>제목 : <input type="text" name="title"/> </div>
+        <div>작성자 : <input type="text" name="writer"/> </div>
+        <div>내용 : <textarea name="content"></textarea> </div>
+        <input type="submit" value="submit"/>
+    </form>
+    <a href="./list.html">뒤로가기</a>
+   
+    </body>
+</html>
